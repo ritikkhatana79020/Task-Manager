@@ -58,6 +58,9 @@ public class Task {
         this.completed = completed;
     }
 
+    public Task() {
+    }
+
     @Override
     public String toString() {
         return "Task [id=" + id + ", title=" + title + ", description=" + description + ", completed=" + completed
