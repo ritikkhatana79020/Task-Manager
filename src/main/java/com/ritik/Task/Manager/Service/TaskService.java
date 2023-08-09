@@ -11,6 +11,8 @@ public interface TaskService {
 
     List<Task> getAllTasks();
 
+    void deleteTask(Integer id);
+
 
     
 }
